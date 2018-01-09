@@ -1,0 +1,112 @@
+================================= GIT FROM TERMINAL
+-- Common Commands --
+git init            (Initialize a repository) AVOID NESTED REPOS
+git status          (See which files need to be added or have been added)
+git add <filename>  (Add files to the staging area to be committed)
+git diff --cached   (See the changes of the files that will be committed)
+git commit          (Commit the changes to Git)
+git log             (View all previous commits)
+git rm --cached     (Remove files from staging by adding the file name)
+git commit -m ""    (To add commit message without an editor)
+git commit          (Write the commit message and save it in whatever text editor is set as the default)
+To change your default editor:
+https://stackoverflow.com/questions/3539594/change-the-default-editor-for-files-opened-in-the-terminal-e-g-set-it-to-text
+-- GitHub Set Up --
+Assuming you have an account and a local repo with committed changes:
+1) Create a repository (click plus button at the top of the GitHub nav bar)
+2) Paste the commands on GitHub of the second option in your terminal to push initially up to GitHub
+-- Best Practice --
+Add and commit frequently any time you complete a small piece of functionality
+Write descriptive commit messages
+Push commits regularly (at least twice a day)
+
+================================= EXPECTED CONDUCT
+During Class Time...
+    - Avoid cell phone use
+    - Avoid social media / loud talking / video games / off-task activities
+    - No sleeping
+    - Keep cups updated
+When you are stuck...
+    - Test multiple possible solutions
+    - Check the curriculum
+    - Google it
+    - Ask your neighbors or other classmates
+    - Consider what you need solved and what you have tried and communicate that to a student fellow or Instructor
+If you find yourself ahead of the class...
+    - Help other students!
+    - Build another project!
+    - Research and practice related concepts!
+In the lobby...
+    - Clean your dishes!
+================================= STRONGLY ENCOURAGED CONDUCT
+During Class Time...
+    - BE HEARD; BE SEEN! If you are struggling, don't struggle alone!
+    - Ask questions, with a strong voice!
+    - Feel free to experiment during lectures
+    - Don't get too focused on taking tons of notes; JUST CODE
+    - If you feel overwelmed or frusterated, consider taking a break!
+    - Please step out at any point if you need to make a call or take a break
+Outside Class...
+    - "Play" with code (especially with concepts that are shaky)
+    - Go to Geekdom and tech meetups regularly
+    - Read (slightly) ahead in the curriculum
+    - Explore and study additional resources (majority of study should involve YOU coding!)
+    - Work on larger projects with other students or on your own
+
+================================= TERMINAL EXERCISE
+YELLOW CUP!
+The following steps are to be done from the terminal or
+the built in terminal in Intellij (open/close with fn + option + F12)
+ 1) Navigate to your desktop
+ 2) Navigate to your root (/) directory
+ 3) Move to your home (~) directory
+ 4) Navigate to ~/desktop
+ 5) Create a directory called cli-test
+ 6) Create a file called test.txt inside of cli-test
+ 7) Delete the file
+ 8) Create a directory called sub-test
+ 9) Navigate inside of sub-test
+10) Create a new file called hello.txt
+11) Move the file outside of sub-test, directly inside cli-test
+12) Confirm the file was moved to the correct place
+13) Rename hello.txt to hi.txt
+14) Open the file with textEdit and add some text, save and close
+15) View the contents of the file from the terminal
+16) Create a file called .hidden inside cli-test
+17) Try to view the file with ls
+18) View the file with ls -a
+19) Navigate to your desktop and delete the cli-test folder
+GREEN CUP!
+
+================================= GIT EXERCISE
+YELLOW CUP!
+In terminal:
+ 1) Create a folder on your desktop called "class-resources" and open with IntelliJ
+ 2) Initialize a Git repo in your resources folder
+ 3) Create a text file called notes.txt
+ 4) Add the file to staging
+ 5) Remove the file from staging
+ 6) Add and commit notes.txt with the message "Added notes.txt file"
+ 7) From inside resources folder, use the terminal to create a .gitignore file.
+ 8) Create a folder called secretFiles inside resources folder
+ 9) Type secretFiles/* inside your .gitignore file with IntelliJ and save
+10) Create a new file without IntelliJ using the touch command called secret.txt
+11) Run git status
+12) Move the secret.txt file to the secretFiles folder
+13) Create a file with IntelliJ called test.txt in the resources folder
+14) Create another file called test2.txt in the resources folder
+15) Add both files at once to staging with git add .
+16) Commit files
+17) Check your git log (use q to exit this screen, when needed)
+18) Copy the hash for any commit
+19) Use git show insertHashHere to view the changes from that commit
+In GitHub:
+    1) Create a repository on GitHub called "class-resources"
+    2) Copy commands for pushing existing repo to your clipboard
+In terminal:
+    1) Paste commands and run to push your commits up to this repository
+In GitHub:
+    1) Verify you have pushed up
+If time permits:
+    Copy over class notes from Teddy Slack channel
+    into this folder and add, commit, push from command line
